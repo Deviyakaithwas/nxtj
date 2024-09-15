@@ -1,0 +1,17 @@
+1.  Explain, in your own words, the importance of data consistency in real-time applications.
+->Data consistency is a crucial aspect that ensures the accuracy and reliability of data. So if data is inconsistent, there is nothing right
+
+Data consistency is the accuracy, completeness, and correctness of data stored in a database. The same data across all related systems, applications, and databases is when we say that data is consistent. Inconsistent data can lead to incorrect analysis, decision-making, and outcome
+
+2. How do you handle concurrency issues in a multi-user environment?
+->To handle concurrency problems, use the following DataBlade API memory-locking functions in UDRs that update named memory. Request a lock on the specified named-memory block and wait for the lock to be obtained.
+
+3. Describe a scenario where you had to optimize database queries for better performance.
+->
+explores different ways and tips to make SQL queries perform better.
+Indexing. One key technique for speeding up queries is indexing. ...
+Use EXISTS Instead of IN. ...
+Use Appropriate Datatype. ..
+
+4. Discuss the trade-offs between using WebSockets and HTTP/2 for real-time communication.
+->💴 Generally speaking, WebSockets should be used if bidirectional and full-duplex communication, low latency, and high throughput are desired. On the other hand, HTTP/2 is advantageous for compatibility, security, efficiency, or flexibility for general web browsing or RESTful APIs.
